@@ -243,16 +243,22 @@ color: var(--accent-color);
     margin-right: 30px;
 }
 .command .caption{
+    margin-bottom: 10px;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.18;
      text-align: center;
 }
 .command .text{
+    margin-bottom: 30px;
     font-size: 16px;
         line-height: 1.18;
      text-align: center;
 }
+.command-img{
+    margin-bottom: 30px;
+}
+
 /* footer */
 .footer{
     background-color: var(--main-block-color);
@@ -349,6 +355,7 @@ margin-bottom: 30px;
     margin-bottom: 0;
 }
 .project .caption{
+    margin-bottom: 4px;
 font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -361,4 +368,7 @@ font-size: 16px;
 }
 .project .link{
     text-decoration: none;
+}
+.project-img{
+    margin-bottom: 20px;
 }
