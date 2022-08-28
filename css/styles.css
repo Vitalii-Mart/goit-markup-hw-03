@@ -153,6 +153,7 @@ color: var(--accent-color);
 .hero{
     background-color: var(--main-block-color);
     text-align: center;
+    
 }
 .hero-slogan{
     color: var(--primary-wite-color);
