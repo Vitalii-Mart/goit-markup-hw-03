@@ -10,28 +10,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <nav class="nav">
-        <a href="./index.html" class="logo"><span class="logo web">Web</span>Studio</a>
-        <ul class="nav list">
-          <li class="nav-items"><a href="./index.html" class="nav-link">Студія</a></li>
-          <li class="nav-items"><a href="./portfolio.html" class="nav-link current">Портфоліо</a></li>
-          <li class="nav-items"><a href="#" class="nav-link">Контакти</a></li>
+      <div class="container row">
+        <nav class="nav row">
+          <a href="./index.html" class="logo"><span class="logo web">Web</span>Studio</a>
+          <ul class="nav list">
+            <li class="nav-items"><a href="./index.html" class="nav-link current">Студія</a></li>
+            <li class="nav-items"><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
+            <li class="nav-items"><a href="#" class="nav-link">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="connection list">
+          <li class="connection-items"><a href="mailto:info@devstudio.com" class="connection-link">info@devstudio.com</a></li>
+          <li class="connection-items"><a href="tel:+380961111111" class="connection-link">+38 096 111 11 11</a></li>
         </ul>
-      </nav>
-      <ul class="connection list">
-        <li class="connection-items"><a href="mailto:info@devstudio.com" class="connection-link">info@devstudio.com</a></li>
-        <li class="connection-items"><a href="tel:+380961111111" class="connection-link">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
     <main class="portfolio-main">
-      <section class="filters">
+      <section class="filters section">
+        <div class="container">
         <h1 class="visually-hidden">Портфоліо</h1>
         <ul class="filters list">
-          <li class="items-btn"><button type="button" class="filters-btn">Усі</button></li>
+          <li class="items-btn"><button type="button" class="filters-btn all">Усі</button></li>
           <li class="items-btn"><button type="button" class="filters-btn">Веб-сайти</button></li>
           <li class="items-btn"><button type="button" class="filters-btn">Додатки</button></li>
           <li class="items-btn"><button type="button" class="filters-btn">Дизайн</button></li>
@@ -102,9 +106,11 @@
             ></li
           >
         </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
+      <div class="container">
       <a href="./index.html" class="footer-logo"><span class="logo web">Web</span>Studio</a>
       <address class="address">
         <ul class="address list">
@@ -115,6 +121,7 @@
           <li class="address-items"><a href="tel:+380961111111" class="address-connection">+38 096 111 11 11</a></li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
