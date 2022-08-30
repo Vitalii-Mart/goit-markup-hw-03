@@ -278,7 +278,7 @@ color: var(--accent-color);
 .footer{
     background-color: var(--main-block-color);
 }
-.footer.container{
+.footer{
     padding-top: 60px;
     padding-bottom: 60px;
 }
